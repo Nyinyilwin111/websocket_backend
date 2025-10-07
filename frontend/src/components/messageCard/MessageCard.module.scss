@@ -1,0 +1,53 @@
+.messageCardInnerContainer {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 0.75rem;
+}
+
+.messageRow {
+  display: flex;
+  align-items: flex-end;
+}
+
+.otherRow {
+  justify-content: flex-start;
+}
+
+.ownRow {
+  justify-content: flex-end;
+}
+
+.ownMessage,
+.othersMessage {
+  max-width: 60%;
+}
+
+.bubbleContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.senderName {
+  font-weight: 600;
+  font-size: 0.85rem;
+  margin-bottom: 2px;
+}
+
+.contentContainer {
+  margin: 0;
+  font-size: 0.95rem;
+  word-break: break-word;
+}
+
+.timeContainer {
+  align-self: flex-end;
+  font-size: 0.7rem;
+  color: gray;
+  margin-top: 0.25rem;
+}
+
+.date {
+  display: flex;
+  justify-content: center;
+  margin: 0.75rem 0;
+}
